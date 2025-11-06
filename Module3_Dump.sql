@@ -1,5 +1,6 @@
-SELECT COUNT(AlbumId) FROM albums 
-    Left Join artists ON albums.AlbumId = artists.artistid; 
+SELECT * FROM albums left join artists ON 
+    albums.artistid = artists.artistid 
+        WHERE artists.name LIKE 'Led Zeppelin';
 
 SELECT title,invoice_items.unitPrice FROM artists LEFT JOIN 
     albums ON artists.artistId = albums.artistId LEFT JOIN
