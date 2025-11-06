@@ -13,6 +13,6 @@ SELECT FirstName,LastName FROM customers LEFT JOIN invoices ON
             invoices.invoiceId = invoice_items.invoiceId
                 WHERE invoice_items.invoiceid IS NULL;
 
-SELECT COUNT(unitprice) FROM tracks left JOIN albums
+SELECT COUNT(unitprice),Title,Name FROM tracks left JOIN albums
     WHERE albums.albumid = tracks.Albumid GROUP BY albums.albumid
         HAVING albums.Title LIKE 'Big Ones';
