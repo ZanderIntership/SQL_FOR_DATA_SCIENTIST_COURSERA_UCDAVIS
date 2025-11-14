@@ -1,59 +1,62 @@
-# SQL_FOR_DATA_SCIENTIST_COURSERA_UCDAVIS
+UCDavis SQL for Data Science – SQL Practice 📚💻
 
-UCDavis SQL for Data Science – Query Summary
+This repo contains all the SQL queries I wrote while completing the UCDavis SQL for Data Science course.
+Everything lives inside a single SQL file — this README just explains what’s inside (no query spam 😉).
 
-This repository contains the SQL practice work I completed as part of the UCDavis SQL for Data Science course.
+🔍 What’s Inside
+✨ 1. Basic SQL Selection
 
-The SQL file includes examples of:
+Picking columns
 
-1. Basic SQL Selection
+Using DISTINCT
 
-Selecting specific columns
+Sorting results
 
-Using DISTINCT values
-
-Sorting with ORDER BY
-
-2. Filtering Data
+🎯 2. Filtering Data
 
 WHERE conditions
 
-Using IN, BETWEEN, LIKE
+IN, BETWEEN, LIKE
 
-Combining conditions with AND / OR
+Combining filters with AND / OR
 
-3. Aggregate Functions
+📊 3. Aggregate Functions
 
-COUNT, SUM, MAX, and grouped calculations
+COUNT, SUM, MAX
 
-Using GROUP BY and HAVING to summarize data
+Grouping with GROUP BY
 
-4. Table Joins
+Filtering groups with HAVING
+
+🔗 4. Joins
 
 LEFT JOINs across multiple tables
 
-Joining tracks, albums, artists, invoices, and customers
+Linking tracks → albums → artists
 
-5. Subqueries
+Combining invoice + customer data
 
-Using nested queries inside WHERE conditions
+🧠 5. Subqueries
 
-6. Set Operations & String Functions
+Using nested queries to filter results
 
-UNION to combine results
+🔤 6. String Functions
 
-Text transformations like LOWER, UPPER, SUBSTR
+UPPER, LOWER, SUBSTR
 
-Creating derived fields (e.g., formatted addresses, IDs)
+Creating formatted text fields
 
-7. Null Handling
+🚫 7. Null Checks
 
-Finding records with missing values using IS NULL
+Finding missing values with IS NULL
 
-The queries demonstrate practical skills applied across two datasets:
+🗂️ Datasets Used
 
-A salary range classification table
+Salary Range Classification Table 👔
 
-The Chinook music store database
+Chinook Music Database 🎵 (tracks, albums, invoices, customers, etc.)
 
-This collection served as hands-on practice for learning core SQL concepts and patterns used in real data analysis.
+🎓 Purpose
+
+These queries helped me practice real SQL techniques used in data analysis, reporting, and cleaning.
+This repo serves as a quick reference and a small SQL portfolio piece.
